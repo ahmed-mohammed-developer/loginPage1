@@ -1,0 +1,27 @@
+.loginPage {
+    height: 100vh;
+}
+
+.loginPage .row {
+    height: 100%;
+}
+.loginPage .text-part {
+    width: 100%;
+    padding: 50px;
+}
+input{
+    margin-top: 15px !important;
+    height: 50px;
+}
+button {
+    height: 50px;
+    margin-top: 15px !important;
+    width: 50%;
+}
+h1 {
+    font-size: 60px;
+    color: transparent !important;
+    -webkit-text-stroke-width: 2px !important;
+    -webkit-text-stroke-color: #DA211C !important;
+      
+}

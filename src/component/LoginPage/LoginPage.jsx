@@ -1,5 +1,6 @@
 import React from 'react'
 import './loginPage.css'
+import img from './11.jpg'
 
 function LoginPage() {
   return (
@@ -21,9 +22,12 @@ function LoginPage() {
                 </div>
                 </div>
             </div>
-            <div className="col-md-6">
-
+            <div className="col-md-6 d-flex align-items-center justify-content-center">
+              <img src={img} alt="" />
             </div>
+        </div>
+        <div className='rectange'>
+
         </div>
     </div>
   )

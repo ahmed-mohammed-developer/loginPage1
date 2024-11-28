@@ -1,5 +1,8 @@
 .loginPage {
     height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .loginPage .row {
@@ -8,6 +11,7 @@
 .loginPage .text-part {
     width: 100%;
     padding: 50px;
+    width: 75%;
 }
 input{
     margin-top: 15px !important;
@@ -17,11 +21,33 @@ button {
     height: 50px;
     margin-top: 15px !important;
     width: 50%;
+    background-color: #DA211C;
+    color: #fff;
+    border: none !important;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: transparent !important;
-    -webkit-text-stroke-width: 2px !important;
+    -webkit-text-stroke-width: 1px !important;
     -webkit-text-stroke-color: #DA211C !important;
+    font-weight: bold;
+    letter-spacing: 6px;
       
+}
+a{
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.577) !important;
+}
+img{
+    height: 500px;
+}
+.rectange {
+    position: absolute;
+    width: 650px;
+    height: 140vh;
+    background-color: #DA211C;
+    right: -250px;
+    bottom: -250px;
+    transform: rotate(30deg);
+    z-index: -1;
 }
